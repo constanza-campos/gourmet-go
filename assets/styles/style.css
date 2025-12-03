@@ -1,0 +1,32 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2 {
+  color: #1f2937;
+}
+
+.hero {
+  height: 45vh;
+  background: linear-gradient(180deg, #ffffff, #f7f7f7);
+}
+
+.search-bar {
+  width: min(600px, 90%);
+  transition: box-shadow 0.2s ease;
+}
+
+.search-bar:focus-within {
+  box-shadow: 0 0 0 4px rgba(25, 118, 210, 0.2);
+}
+
+.recipe-card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.recipe-card .btn {
+  width: 100%;
+}
